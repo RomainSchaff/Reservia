@@ -6,8 +6,7 @@ body{
 }
 
 section{
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 50px 2%;
 }
 
 figure{
@@ -15,6 +14,7 @@ figure{
     background-color: white;
     text-align: center;
     overflow: hidden;
+    box-shadow: 10px 10px 20px rgb(153, 150, 150);
 }
 
 
@@ -42,11 +42,19 @@ header ul li{
     border-top: 2px ridge rgb(89, 157, 235);
 }
 
+
 /*Formulaire*/
 
 
 /*Première Section*/
 
+h1{
+    margin-top: 0px;
+}
+
+.menu{
+    margin-top: 0px;
+}
 section ul{
     display: flex;
     list-style-type: none;
@@ -67,10 +75,15 @@ section ul li{
     justify-content: space-between;
 }
 
+article img{
+    border-radius: 15px 15px 0px 0px;
+    border: 5px rgb(255, 255, 255) solid;
+}
+
 article{
     display: flex;
     flex-wrap: wrap;
-    width: 64%;
+    width: 70%;
     background-color: #F2F2F2;
     border-radius: 15px;
 }
@@ -82,18 +95,35 @@ article{
 }
 
 aside{
-    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 27%;
     background-color: #F2F2F2;
     border-radius: 15px;
+}
+
+aside img{
+    float: left;
+    border-radius: 15px 0px 0px 15px;
+    border: 5px rgb(255, 255, 255) solid;
+}
+
+.populaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 
 /*Troisième Section*/
 
 .activités{
-    display: flex;
-    max-width: 100%;
     overflow: hidden;
+}
+
+.photoactivité{
+    display: flex;
 }
 
 
@@ -115,6 +145,7 @@ footer ul{
 footer ul li{
     margin: 10px 0px;
 }
+
 footer p{
     font-weight: bold;
     font-size: 18px;
