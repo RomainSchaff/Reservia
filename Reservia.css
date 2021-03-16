@@ -28,15 +28,19 @@ header ul li{
 /*Filtres et Formulaire*/
 
 section ul{
+    display: flex;
     list-style-type: none;
 }
 
 /*Première Section*/
+
 .hébergements{
-    display:
+    display: flex;
 }
+
 article{
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*Deuxième Section*/
@@ -44,8 +48,6 @@ article{
 .activités{
     display: flex;
 }
-
-
 
 /*Bas de page*/
 
