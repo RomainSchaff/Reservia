@@ -1,19 +1,33 @@
 
 body{
     margin: 0px;
+    background-color: rgb(116, 113, 106);
 }
+
+section{
+    margin-left: 2%;
+}
+
+figure{
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+}
+
 
 /*Le Titre + NAV*/
 
 header{
     display: flex;
     justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 header ul{
     display: flex;
     list-style-type: none;
-    color: blue;
+    color:  #0065FC;
     margin-top: 0px;
 }
 
@@ -25,38 +39,66 @@ header ul li{
     border-top: 2px ridge rgb(89, 157, 235);
 }
 
-/*Filtres et Formulaire*/
+/*Formulaire*/
+
+
+/*Première Section*/
+
+
+.hébergements{
+    display: flex;
+    justify-content: space-around;
+}
 
 section ul{
     display: flex;
     list-style-type: none;
 }
 
-/*Première Section*/
-
-.hébergements{
-    display: flex;
+section ul li{
+    border: 2px solid #f2f2f2;
+    border-radius: 15px;
+    margin-left: 1%;
 }
+
+
+/*Deuxième Section*/
 
 article{
     display: flex;
     flex-wrap: wrap;
+    background-color: #F2F2F2;
 }
 
-/*Deuxième Section*/
+aside{
+    background-color: #F2F2F2;
+}
+
+
+/*Troisième Section*/
 
 .activités{
     display: flex;
+    margin: 15px;
+    max-width: 100%;
+    overflow: hidden;
 }
+
 
 /*Bas de page*/
 
 footer{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(61, 61, 61);
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
 }
 
 footer ul{
     color: black;
+}
+
+footer p{
+    font-weight: bold;
+    font-size: 18px;
 }
