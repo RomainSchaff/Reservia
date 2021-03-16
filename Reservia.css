@@ -25,6 +25,27 @@ header ul li{
     border-top: 2px ridge rgb(89, 157, 235);
 }
 
+/*Filtres et Formulaire*/
+
+section ul{
+    list-style-type: none;
+}
+
+/*Première Section*/
+.hébergements{
+    display:
+}
+article{
+    display: flex;
+}
+
+/*Deuxième Section*/
+
+.activités{
+    display: flex;
+}
+
+
 
 /*Bas de page*/
 
