@@ -132,6 +132,9 @@ h4{
 
 /*Formulaire*/
 
+form{
+    display: flex;
+}
 
 /*Deuxième Section*/
 
