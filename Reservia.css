@@ -77,8 +77,8 @@ section ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    height: 46px;
+    width: 46px;
     font-size: 20px;
     color: #0065FC;
     background-color:#DEEBFF;
@@ -87,6 +87,7 @@ section ul{
 
 section ul li{
     display: flex;
+    align-items: center;
     padding: 0px 15px 0px 0px;
     border-left: none;
     border-radius: 50px;
@@ -94,10 +95,11 @@ section ul li{
 }
 
 section ul li p{
-    padding: 13px 15px 13px 35px;
+    height: 20px;
+    padding: 11px 15px 11px 35px;
     border: 2px solid #f2f2f2;
     border-radius: 15px 50px 50px 15px;
-    margin: 0px 0px 0px -30px;
+    margin: 0px 0px 0px -28px;
     border-left: none;
     z-index: -1;
 }
@@ -124,7 +126,7 @@ h4{
     width: 30px;
     border: 2px solid #f2f2f2;
     color: #0065FC;
-    border-radius: 50%;
+    border-radius: 50px;
     margin-right: 1%;
 }
 
