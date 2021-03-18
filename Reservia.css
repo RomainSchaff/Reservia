@@ -66,12 +66,17 @@ section ul{
 }
 
 section ul li{
+    display: flex;
     padding: 10px 15px 10px 15px;
     border: 2px solid #f2f2f2;
     border-radius: 50px;
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
+.Filtres{
+    display: flex;
+    align-items: center;
+}
 
 /*Deuxième Section*/
 
