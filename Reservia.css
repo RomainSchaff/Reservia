@@ -1,12 +1,12 @@
-
+/*Actions sur tout le body*/
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(180, 160, 160);
 }
 
 section{
-    margin: 50px 2%;
+    margin: 30px 2%;
 }
 
 figure{
@@ -44,7 +44,7 @@ header ul li{
 }
 
 #Hebergements{
-    border-top: 2px ridge rgb(89, 157, 235);
+    border-top: 3px solid #0065FC;
 }
 
 #acti{
@@ -54,8 +54,6 @@ header ul li{
 #inscrire{
     font-weight: bold;
 }
-
-/*Formulaire*/
 
 
 /*Première Section*/
@@ -74,18 +72,59 @@ section ul{
     font-weight: bold;
 }
 
+.iconesdufiltre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    color: #0065FC;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+}
+
 section ul li{
     display: flex;
-    padding: 10px 15px 10px 15px;
-    border: 2px solid #f2f2f2;
+    padding: 0px 15px 0px 0px;
+    border-left: none;
     border-radius: 50px;
     margin-left: 3%;
+}
+
+section ul li p{
+    padding: 13px 15px 13px 35px;
+    border: 2px solid #f2f2f2;
+    border-radius: 15px 50px 50px 15px;
+    margin: 0px 0px 0px -30px;
+    border-left: none;
+    z-index: -1;
 }
 
 .Filtres{
     display: flex;
     align-items: center;
 }
+
+h4{
+    display: flex;
+    align-items: center;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border: 2px solid #f2f2f2;
+    color: #0065FC;
+    border-radius: 50%;
+    margin-right: 1%;
+}
+
+/*Formulaire*/
+
 
 /*Deuxième Section*/
 
@@ -112,6 +151,10 @@ article h2{
     margin-left: 5%;
     margin-top: 45px;
     margin-bottom: 15px;
+}
+
+article h3{
+    margin-left: 5%;
 }
 
 .photohebergement{
