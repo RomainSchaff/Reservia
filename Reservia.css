@@ -158,6 +158,24 @@ input {
     border: 0px;
 }
 
+.rechercher{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100%;
+    width: 120px;
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.rechercher a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
 /*Deuxième Section*/
 
 .hébergements{
