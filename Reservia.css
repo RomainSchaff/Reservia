@@ -1,4 +1,4 @@
-/*Actions sur tout le body*/
+/*Actions globales*/
 body{
     font-family: 'Raleway', sans-serif;
     margin: 0px;
@@ -6,7 +6,7 @@ body{
 }
 
 section{
-    margin: 30px 2%;
+    margin: 30px 3%;
 }
 
 figure{
@@ -28,8 +28,8 @@ h2{
 header{
     display: flex;
     justify-content: space-between;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 3%;
+    margin-left: 3%;
 }
 
 header ul{
@@ -206,10 +206,24 @@ aside img{
 
 .activités{
     overflow: hidden;
+    margin-bottom: 50px;
 }
 
 .photoactivité{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.photoactivité figure{
+    height: fit-content;
+    width: 23%;
+    margin: 0;
+}
+
+.panorama{
+    width: 23%;
 }
 
 
