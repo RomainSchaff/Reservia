@@ -99,16 +99,20 @@ section ul{
     border-radius: 50%;
 }
 
-section ul li{
+.Filtres li{
     display: flex;
     align-items: center;
-    padding: 0px 15px 0px 0px;
     border-left: none;
     border-radius: 50px;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
-section ul li p{
+.Filtres li:hover{
+    background-color: #f2f2f2;
+    z-index: -1;
+}
+
+.Filtres li p{
     height: 20px;
     padding: 11px 15px 11px 35px;
     border: 2px solid #f2f2f2;
