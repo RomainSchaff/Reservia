@@ -13,7 +13,6 @@ figure{
     border-radius: 15px;
     background-color: white;
     text-align: center;
-    overflow: hidden;
     box-shadow: 10px 10px 20px rgb(153, 150, 150);
 }
 
@@ -253,19 +252,28 @@ aside img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 500px;
 }
 
 .photoactivité figure{
-    height: fit-content;
+    max-height: 500px;
     width: 23%;
     margin: 0;
 }
 
+.photoactivité figcaption{
+    height: 20px;
+}
 .panorama{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 23%;
+    max-height: 600px;
 }
 
+.panorama figure{
+    width: 100%;
+}
 
 /*Bas de page*/
 
