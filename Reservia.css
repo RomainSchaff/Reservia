@@ -21,6 +21,12 @@ h2{
     font-weight: 600;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:visited{
+}
 
 /*Le Titre + NAV*/
 
@@ -46,7 +52,11 @@ header ul li{
     border-top: 3px solid #0065FC;
 }
 
-#acti{
+#Hebergements a{
+    color: #0065FC;
+}
+
+#acti a{
     color: black;
 }
 
@@ -154,7 +164,10 @@ form{
 }
 
 input {
+    font-weight: bold;
     border: 0px;
+    padding-left: 15px;
+    width: 150px;
 }
 
 .rechercher{
@@ -177,7 +190,7 @@ input {
 
 /*Deuxième Section*/
 
-.hébergements{
+#hébergements{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -243,7 +256,7 @@ aside img{
 
 /*Troisième Section*/
 
-.activités{
+#activités{
     overflow: hidden;
     margin-bottom: 50px;
 }
