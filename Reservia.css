@@ -17,7 +17,6 @@ figure{
 }
 
 h2{
-    margin-left: 50px;
     font-weight: 600;
 }
 
@@ -25,8 +24,6 @@ a{
     text-decoration: none;
 }
 
-a:visited{
-}
 
 /*Le Titre + NAV*/
 
@@ -108,7 +105,7 @@ section ul{
 }
 
 .Filtres li:hover{
-    background-color: #f2f2f2;
+    background-color: #0065FC;
     z-index: -1;
 }
 
@@ -247,7 +244,7 @@ aside img{
 
 .titreaside{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -261,7 +258,6 @@ aside img{
 /*Troisième Section*/
 
 #activités{
-    overflow: hidden;
     margin-bottom: 50px;
 }
 
@@ -272,24 +268,34 @@ aside img{
 }
 
 .photoactivité figure{
-    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     width: 23%;
+    height: auto;
     margin: 0;
 }
 
-.photoactivité figcaption{
-    height: 20px;
+.photoactivité img{
+    border-radius: 15px 15px 0px 0px;
 }
+
+.photoactivité figcaption{
+    font-weight: 600;
+    font-size: 18px;
+    height: 30px;
+}
+
 .panorama{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 23%;
-    max-height: 600px;
 }
 
 .panorama figure{
     width: 100%;
+    max-height: 230px;
 }
 
 /*Bas de page*/
