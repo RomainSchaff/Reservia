@@ -202,6 +202,8 @@ input {
 }
 
 article img{
+    width: 100%;
+    height: auto;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -216,10 +218,14 @@ article{
 article figure{
     border: 5px rgb(255, 255, 255) solid;
     border-radius: 15px;
+    width: 25%;
+    height: fit-content;
+    min-width: 250px;
 }
 
 article figcaption{
-    text-align: center;
+    margin: 5px 0px 5px 10px;
+
 }
 
 article h2{
@@ -250,18 +256,18 @@ aside{
 
 aside figure{
     display: flex;
-    align-items: center;
     border-radius: 15px;
-
-}
-
-aside figcaption{
-    text-align: center;
 }
 
 aside img{
+    width: 50%;
+    height: auto;
     border-radius: 15px 0px 0px 15px;
     border: 5px rgb(255, 255, 255) solid;
+}
+
+aside a{
+    display: flex;
 }
 
 .titreaside{
@@ -290,17 +296,16 @@ aside img{
 }
 
 .photoactivité figure{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 23%;
     min-width: 250px;
     height: auto;
     margin: 0;
     border-radius: 15px;
+    box-shadow: 8px 8px 15px rgb(190, 190, 190);
 }
 
 .photoactivité img{
+    width: 100%;
     border-radius: 15px 15px 0px 0px;
 }
 
@@ -310,7 +315,6 @@ aside img{
     align-items: center;
     height: 50px;
     font-weight: 600;
-    z-index: 2;
 }
 
 .panorama{
@@ -322,6 +326,7 @@ aside img{
 }
 
 .panorama figure{
+    width: 100%;
 }
 
 /*Bas de page*/
