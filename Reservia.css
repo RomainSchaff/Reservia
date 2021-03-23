@@ -36,9 +36,7 @@ header{
 
 header ul{
     display: flex;
-    flex-wrap: wrap-reverse;
     list-style-type: none;
-    color:  #0065FC;
     margin-top: 0px;
     padding-left: 0px;
 }
@@ -218,6 +216,11 @@ article{
     min-width: 340px;
 }
 
+article h2{
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+
 article figure{
     border: 5px rgb(255, 255, 255) solid;
     border-radius: 15px;
@@ -233,19 +236,21 @@ article img{
     border-radius: 15px 15px 0px 0px;
 }
 
-article figcaption{
-    margin: 5px 0px;
+article p{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
-article h2{
-    margin-top: 45px;
-    margin-bottom: 0px;
-}
+article .note{
+    margin-left: 10px;
+} 
+
 
 .photohebergement{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 aside{

@@ -1,16 +1,36 @@
 @media screen and (max-width: 599px){
-
+section{
+    margin: 30px 0px;
+}
 /*Header*/
 
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    margin: 0px;
+}
 
+.logo{
+    text-align: center;
+}
 
+nav{
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column: 1 / span 2;
+    margin: 0px;
+}
 
+header ul li{
+    padding: 20px 20px;
+}
 
-
-
-
-
-
+#Hebergements{
+    border-top: none;
+    border-bottom: 3px solid #0065FC;
+}
 
 
 
@@ -31,15 +51,60 @@
     display: none;
 }
 
+/*Formulaire*/
 
+form{
+    justify-content: center;
+}
 
+/*Aside*/
 
+aside{
+    width: 100%;
+    min-width: 0;
+    border-radius: 0px;
+}
 
+article{
+    width: 100%;
+    border-radius: 0px;
+    background-color: white;
+}
 
+article h2{
+    text-align: center;
+    margin: 30px 0px;
+}
+article figure{
+    width: 90%;
+}
 
+/*Activités*/
 
+.activités{
+    width: 100%;
+}
 
+.photoactivité{
+    display: block;
+}
 
+.photoactivité figure{
+    height: 300px;
+    width: 90%;
+}
+
+.photoactivité img{
+    height: 250px;
+}
+
+.panorama{
+    display: block;
+}
+
+.panorama2{
+    display: block;
+}
 
 
 
