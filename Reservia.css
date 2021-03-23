@@ -211,8 +211,9 @@ input {
 article{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 66%;
     background-color: #F2F2F2;
+    padding: 0px 2%;
     border-radius: 15px;
     min-width: 340px;
 }
@@ -220,7 +221,7 @@ article{
 article figure{
     border: 5px rgb(255, 255, 255) solid;
     border-radius: 15px;
-    width: 25%;
+    width: 30%;
     height: fit-content;
     min-width: 250px;
     margin: 15px 0px 15px 0px;
@@ -237,19 +238,14 @@ article figcaption{
 }
 
 article h2{
-    margin-left: 5%;
     margin-top: 45px;
     margin-bottom: 0px;
-}
-
-article h3{
-    margin-left: 5%;
 }
 
 .photohebergement{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 aside{
@@ -267,6 +263,7 @@ aside h2{
     margin-bottom: 10px;
 }
 aside figure{
+    width: 85%;
     border-radius: 15px;
     min-width: 380px;
 }
@@ -277,8 +274,7 @@ aside a{
 }
 
 aside img{
-    width: 36%;
-    min-width: 160px;
+    width: 45%;
     height: auto;
     border-radius: 15px 0px 0px 15px;
     border: 5px rgb(255, 255, 255) solid;
@@ -292,6 +288,7 @@ aside figcaption{
 }
 
 .note{
+    font-size: 16px;
     margin: 0px 0px 10px 0px;
     color: #0065FC;
 }
@@ -310,17 +307,13 @@ aside figcaption{
 }
 
 .photoactivité{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .photoactivité figure{
-    width: 23%;
-    min-width: 250px;
-    height: auto;
     border-radius: 15px;
-    margin: 10px;
+    margin: 10px 25px;
 }
 
 .photoactivité img{
@@ -337,17 +330,15 @@ aside figcaption{
 }
 
 .panorama{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 23%;
-    min-width: 250px;
+    display: grid;
+    grid-template-rows: 60% 40%;
 }
 
-.panorama figure{
-    width: 100%;
-    margin: 10px 0px;
+.panorama2{
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
+
 
 /*Bas de page*/
 

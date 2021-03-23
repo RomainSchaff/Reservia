@@ -1,0 +1,65 @@
+@media screen and (max-width: 599px){
+
+/*Header*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Menu*/
+
+.rechercher{
+    height: 100%;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: -10px;
+}
+.rechercher i{
+    display: block;
+    color: white;
+}
+
+.rechercher p{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
