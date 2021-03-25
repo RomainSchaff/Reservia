@@ -39,9 +39,33 @@ header ul li{
 
 /*Menu*/
 
+.menu{
+    margin: 10px;
+}
+
+.Filtres{
+    margin-top: 25px;
+}
+
+
+/*Formulaire*/
+
+form{
+    justify-content: center;
+    height: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+.logoformulaire{
+    height: 100%;
+    width: 60px;
+    border-radius: 15px 0px 0px 15px;
+}
+
 .rechercher{
     height: 100%;
-    width: 50px;
+    width: 60px;
     border-radius: 15px;
     margin-left: -10px;
 }
@@ -54,11 +78,10 @@ header ul li{
     display: none;
 }
 
-/*Formulaire*/
-
-form{
-    justify-content: center;
+input {
+    width: 80%;
 }
+
 
 /*Article*/
 
@@ -93,6 +116,7 @@ article figure{
     width: 90%;
 }
 
+
 /*Activités*/
 
 .activités{
@@ -100,7 +124,8 @@ article figure{
 }
 
 .photoactivité{
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .photoactivité figure{
@@ -119,22 +144,6 @@ article figure{
 .panorama2{
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
