@@ -1,17 +1,18 @@
-@media all and (min-width: 599px) and (max-width: 1330px){
+@media all and (min-width: 699px) and (max-width: 1330px){
 
 
 /*Deuxième Section*/
 
 article{
     width: 100%;
+    margin: 20px 0px;
 }
 
 article figure{
-    width: 30%;
+    width: 40%;
     height: 300px;
     min-width: 250px;
-    margin: 15px 0px 15px 0px;
+    margin: 20px;
 }
 
 
@@ -25,7 +26,7 @@ article img{
 .photohebergement{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -48,7 +49,6 @@ aside figure{
     width: 100%;
     border-radius: 15px;
     margin: 15px auto;
-    min-width: 285px;
 }
 
 aside a{
@@ -69,7 +69,6 @@ aside figcaption{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 220px;
 }
 
 .note{
