@@ -5,7 +5,7 @@
 
 article{
     width: 100%;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 article figure{
@@ -14,7 +14,6 @@ article figure{
     min-width: 250px;
     margin: 20px;
 }
-
 
 article img{
     width: 100%;
@@ -31,7 +30,7 @@ article img{
 }
 
 aside{
-    width: 50%;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -46,7 +45,7 @@ aside h2{
 }
 
 aside figure{
-    width: 100%;
+    width: 80%;
     border-radius: 15px;
     margin: 15px auto;
 }

@@ -17,28 +17,32 @@ h2{
 h3{
     text-align: center;
 }
+
+
 /*Header*/
 
 header{
+    margin: 0px;
+}
+
+.nav{
+    display: none;
+}
+
+.navphone{
+    display: flex;
+    margin: 0px;
+}
+
+header ul{
+    width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0px;
-}
-
-.logo{
-    text-align: center;
-}
-
-nav{
-    grid-row-start: 2;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-column: 1 / span 2;
-    margin: 0px;
 }
 
 header ul li{
+    text-align: center;
     padding: 20px 20px;
 }
 
@@ -46,6 +50,9 @@ header ul li{
     border-top: none;
     border-bottom: 3px solid #0065FC;
 }
+
+
+
 
 
 /*Menu*/
@@ -61,7 +68,6 @@ header ul li{
 .Filtres{
     margin-top: 25px;
 }
-
 
 
 /*Formulaire*/
@@ -119,16 +125,12 @@ article figure{
 }
 
 
-
-
 /*Aside*/
 
 aside{
     width: 100%;
     border-radius: 0px;
 }
-
-
 
 
 /*Activités*/
@@ -159,8 +161,6 @@ aside{
 .panorama2{
     display: block;
 }
-
-
 
 
 }

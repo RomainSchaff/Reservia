@@ -18,9 +18,20 @@
 
         <header>
 
-            <p class="logo"><img src="images/logo/Reservia.svg" alt="logo"></p>
-            <nav>
+            <div class="nav">
+                <p class="logo"><img src="images/logo/Reservia.svg" alt="logo"></p>
+                <nav>
+                    <ul>
+                        <li id="Hebergements"><a href="#hébergements">Hébergements</a></li>
+                        <li id="acti"><a href="#activités">Activités</a></li>
+                        <li id="inscrire"><a href="#">S'inscrire</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <nav class="navphone">
                 <ul>
+                    <li class="logo"><img src="images/logo/Reservia.svg" alt="logo"></li>
                     <li id="Hebergements"><a href="#hébergements">Hébergements</a></li>
                     <li id="acti"><a href="#activités">Activités</a></li>
                     <li id="inscrire"><a href="#">S'inscrire</a></li>
@@ -36,7 +47,7 @@
             <form method="post" action="traitement.php">
                 <p>
                     <div class="logoformulaire"><label for="lieu"><i class="fas fa-map-marker-alt"></i></label></div>
-                    <input type="text" name="lieu" id="lieu" />
+                    <input type="text" name="lieu" id="lieu" placeholder="Marseille, France"/>
                 </p>
                 <div  class="rechercher">
                     <p><a href="#">Rechercher</a></p>
