@@ -10,14 +10,6 @@ h1{
     text-align: center;
 }
 
-h2{
-    text-align: center;
-}
-
-h3{
-    text-align: center;
-}
-
 
 /*Header*/
 
@@ -47,12 +39,15 @@ header ul li{
 }
 
 #Hebergements{
+    grid-column-start: 1;
     border-top: none;
     border-bottom: 3px solid #0065FC;
 }
 
-
-
+#inscrire{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
 
 
 /*Menu*/
@@ -121,7 +116,7 @@ article h2{
     margin: 30px 0px;
 }
 article figure{
-    width: 90%;
+    width: 100%;
 }
 
 
@@ -130,11 +125,15 @@ article figure{
 aside{
     width: 100%;
     border-radius: 0px;
+    padding: 0px 5%;
 }
 
 
 /*Activités*/
 
+#activités{
+    padding: 0px 2%;
+}
 .activités{
     width: 100%;
 }
@@ -142,27 +141,29 @@ aside{
 .photoactivité{
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .photoactivité figure{
-    height: 300px;
-    width: 90%;
+    height: 180px;
+    width: 100%;
+    margin: 10px 0px;
 }
 
 .photoactivité img{
-    height: 250px;
+    height: calc(100% - 60px);
 }
 
 .panorama{
-    display: block;
-}
-
-.panorama2{
-    display: block;
+    grid-template-rows: 50% 50%;
 }
 
 
+/*Footer*/
+
+footer{
+    flex-direction: column;
+    text-align: center;
+}
 }
 
 
