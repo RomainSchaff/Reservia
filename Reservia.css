@@ -15,6 +15,7 @@ section{
 figure{
     background-color: white;
     box-shadow: 8px 8px 15px rgb(190, 190, 190);
+    margin: 0px;
 }
 
 a{
@@ -237,19 +238,16 @@ article h2{
     margin-bottom: 0px;
 }
 
+article a{
+    width: 30%;
+    margin: 10px;
+    min-width: 250px;
+}
+
 article figure{
     border: 5px rgb(255, 255, 255) solid;
     border-radius: 15px;
-    width: 30%;
-    height: 300px;
-    min-width: 250px;
-    margin: 15px 0px 15px 0px;
-}
-
-article figcaption{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 275px;
 }
 
 article img{
@@ -259,20 +257,22 @@ article img{
     border-radius: 15px 15px 0px 0px;
 }
 
-article p{
-    margin: 5px 0px 10px 10px;
+article figcaption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+    padding-left: 5px;
 }
 
-article .note{
-    margin-left: 10px;
-} 
-
+article p{
+    margin: 5px 0px;
+}
 
 .photohebergement{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
 
 aside{
@@ -285,23 +285,21 @@ aside{
 .populaire{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 aside h2{
-    margin-top: 45px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
-aside figure{
-    width: 100%;
-    max-width: 800px;
-    border-radius: 15px;
-    margin: 15px auto;
+aside a{
+    margin: 10px 0px;
 }
 
-aside a{
-    width: 100%;
+aside figure{
     display: flex;
+    border-radius: 15px;
 }
 
 aside img{
@@ -328,6 +326,7 @@ aside figcaption{
 
 .etoilegrise{
     color: #cfcfcf;
+    display: flex;
 }
 
 .titreaside{
@@ -349,10 +348,13 @@ aside figcaption{
     grid-template-rows: 500px;
 }
 
+.photoactivité a{
+    margin: 10px 20px;
+}
+
 .photoactivité figure{
+    height: 100%;
     border-radius: 15px;
-    margin: 10px 25px;
-    max-width: 550px;
 }
 
 .photoactivité img{
