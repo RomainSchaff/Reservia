@@ -1,4 +1,6 @@
 /*Actions globales*/
+
+
 body{
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
@@ -288,6 +290,7 @@ aside h2{
 
 aside figure{
     width: 100%;
+    max-width: 800px;
     border-radius: 15px;
     margin: 15px auto;
 }
@@ -345,6 +348,7 @@ aside figcaption{
 .photoactivité figure{
     border-radius: 15px;
     margin: 10px 25px;
+    max-width: 550px;
 }
 
 .photoactivité img{

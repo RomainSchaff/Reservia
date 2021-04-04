@@ -133,7 +133,9 @@ aside{
 
 #activités{
     padding: 0px 2%;
+    margin-bottom: 0px;
 }
+
 .activités{
     width: 100%;
 }
@@ -146,7 +148,7 @@ aside{
 .photoactivité figure{
     height: 180px;
     width: 100%;
-    margin: 10px 0px;
+    margin: 10px auto;
 }
 
 .photoactivité img{
