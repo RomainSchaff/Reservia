@@ -47,7 +47,7 @@ header ul li{
     padding: 50px 20px;
 }
 
-#Hebergements{
+.Hebergements{
     border-top: 3px solid #0065FC;
 }
 
@@ -55,11 +55,11 @@ nav a{
     color: #0065FC;
 }
 
-#acti a{
+.acti a{
     color: black;
 }
 
-#inscrire{
+.inscrire{
     font-weight: bold;
 }
 
@@ -71,6 +71,7 @@ nav a{
 
 .menu{
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 h1{
@@ -107,6 +108,7 @@ input {
     border: 0px;
     padding-left: 15px;
     width: 150px;
+    max-width: 250px;
     outline: none;
 }
 
@@ -193,7 +195,8 @@ input {
 
 /*Barre d'infos*/
 
-h4{
+.barredinfo{
+    font-weight: bold;
     display: flex;
     align-items: center;
 }
@@ -217,6 +220,7 @@ h4{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap-reverse;
+    margin-top: 0px;
 }
 
 article{
