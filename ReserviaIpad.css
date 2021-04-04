@@ -42,6 +42,11 @@ aside h2{
     grid-template-rows: 500px 500px;
 }
 
+.photoactivité figure{
+    max-width: 550px;
+
+}
+
 .panorama{
     grid-template-rows: 50% 50%;
 }

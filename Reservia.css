@@ -31,29 +31,28 @@ header{
     margin-left: 2%;
 }
 
-.nav{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+nav a{
+    color: #0065FC;
 }
 
-header ul{
-    display: flex;
+nav ul{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
     list-style-type: none;
-    margin-top: 0px;
+    margin: 0px;
     padding-left: 0px;
 }
 
-header ul li{
+nav li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px 20px;
 }
 
 .Hebergements{
     border-top: 3px solid #0065FC;
-}
-
-nav a{
-    color: #0065FC;
+    grid-column-start: 3;
 }
 
 .acti a{
@@ -64,14 +63,11 @@ nav a{
     font-weight: bold;
 }
 
-.navphone{
-    display: none;
-}
 
 /*Première Section*/
 
 .menu{
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 
