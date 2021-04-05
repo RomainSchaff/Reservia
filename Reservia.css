@@ -50,6 +50,11 @@ nav li{
     padding: 50px 20px;
 }
 
+.logo{
+    padding-left: 0px;
+    justify-self: flex-start;
+}
+
 .Hebergements{
     border-top: 3px solid #0065FC;
     grid-column-start: 3;

@@ -44,12 +44,10 @@ aside h2{
 
 .photoactivité figure{
     max-width: 550px;
-
 }
 
 .panorama{
     grid-template-rows: 50% 50%;
 }
-
 
 }
