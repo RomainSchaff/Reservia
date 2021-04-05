@@ -226,6 +226,10 @@ input {
     margin-top: 0px;
 }
 
+#titresection{
+    display: none;
+}
+
 article{
     display: flex;
     flex-direction: column;
