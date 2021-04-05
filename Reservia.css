@@ -172,6 +172,7 @@ input {
 
 .Filtres li:hover{
     background-color: #0065FC;
+    color: white;
     z-index: -1;
 }
 
